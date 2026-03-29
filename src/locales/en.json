@@ -1,0 +1,45 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "ctaContact": "Contact",
+    "ctaLinkedIn": "LinkedIn",
+    "ctaGitHub": "GitHub"
+  },
+  "about": {
+    "title": "About"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects": {
+    "title": "Projects",
+    "viewRepo": "View repository",
+    "viewDemo": "View demo",
+    "placeholderTitle": "Your projects here",
+    "placeholderBody": "Edit src/data/projects.ts and add titles, descriptions, and repository links."
+  },
+  "contact": {
+    "title": "Contact",
+    "location": "Location"
+  },
+  "theme": {
+    "light": "Switch to light theme",
+    "dark": "Switch to dark theme"
+  },
+  "lang": {
+    "switchToEn": "English",
+    "switchToPt": "Português"
+  },
+  "footer": {
+    "built": "Built with React and Vite."
+  }
+}
