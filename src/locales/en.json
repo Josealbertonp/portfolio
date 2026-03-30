@@ -22,10 +22,9 @@
   },
   "projects": {
     "title": "Projects",
+    "intro": "A selection of personal, academic, and experimental work. Add more entries in src/data/projects.ts.",
     "viewRepo": "View repository",
-    "viewDemo": "View demo",
-    "placeholderTitle": "Your projects here",
-    "placeholderBody": "Edit src/data/projects.ts and add titles, descriptions, and repository links."
+    "viewDemo": "View demo"
   },
   "contact": {
     "title": "Contact",
