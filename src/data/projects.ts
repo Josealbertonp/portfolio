@@ -35,10 +35,10 @@ export const projects: Project[] = [
     },
   },
   {
-    title: 'Seleção de período e matérias (UTFPR)',
+    title: 'Seleção de período e matérias — Eng. Eletrônica (UTFPR)',
     description: {
-      pt: 'Sistema web para visualizar matérias por semestre, pré-requisitos, fluxograma e planejamento de carga horária. Desenvolvido em parceria com professores e alunos da UTFPR.',
-      en: 'Web app to browse courses by semester, prerequisites, flowchart, and weekly workload planning. Built in partnership with UTFPR faculty and students.',
+      pt: 'Sistema web voltado exclusivamente ao curso de Engenharia Eletrônica da UTFPR: matérias por semestre, pré-requisitos, fluxograma e planejamento de carga horária. Desenvolvido em parceria com professores e alunos.',
+      en: 'Web app focused solely on the UTFPR Electronic Engineering program: courses by semester, prerequisites, flowchart, and weekly workload planning. Built in partnership with faculty and students.',
     },
     repoUrl: 'https://github.com/Josealbertonp/selecao-periodo-materias',
     demoUrl: 'https://seletoracademico.netlify.app/',
