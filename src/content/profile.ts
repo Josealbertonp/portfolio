@@ -34,8 +34,11 @@ export const experience: ExperienceItem[] = [
   {
     company: 'DevSquad',
     role: { pt: 'Software Engineer', en: 'Software Engineer' },
-    period: { pt: 'mar. 2026 – atual', en: 'Mar 2026 – present' },
-    location: 'Murray, UT, USA (remoto)',
+    period: {
+      pt: 'mar. de 2026 – o momento · 1 mês',
+      en: 'Mar 2026 – present · 1 mo',
+    },
+    location: 'Murray, Utah, Estados Unidos · Tempo integral · Remota',
     highlights: [
       {
         pt: 'Full stack: novas features, manutenção e melhoria de performance e escalabilidade.',
@@ -54,8 +57,11 @@ export const experience: ExperienceItem[] = [
   {
     company: 'OnSafety',
     role: { pt: 'Desenvolvedor Full Stack', en: 'Full Stack Developer' },
-    period: { pt: 'abr. 2025 – atual', en: 'Apr 2025 – present' },
-    location: 'Maringá, PR, Brasil (remoto)',
+    period: {
+      pt: 'abr. de 2025 – o momento · 1 ano',
+      en: 'Apr 2025 – present · 1 yr',
+    },
+    location: 'Maringá, Paraná, Brasil · Tempo integral · Remota',
     highlights: [
       {
         pt: 'Sistemas corporativos de segurança e saúde do trabalho com Java, JSF, Angular, JavaScript e PHP.',
@@ -74,8 +80,11 @@ export const experience: ExperienceItem[] = [
   {
     company: 'Like Sistemas',
     role: { pt: 'Desenvolvedor Full Stack', en: 'Full Stack Developer' },
-    period: { pt: 'fev. 2024 – atual', en: 'Feb 2024 – present' },
-    location: 'Campo Mourão, PR, Brasil (remoto)',
+    period: {
+      pt: 'fev. de 2024 – o momento · 2 anos 2 meses',
+      en: 'Feb 2024 – present · 2 yrs 2 mo',
+    },
+    location: 'Campo Mourão, Paraná, Brasil · Tempo integral · Remota',
     highlights: [
       {
         pt: 'PHP, Java, JavaScript, React, Angular, Livewire e Tailwind CSS.',
@@ -94,11 +103,14 @@ export const experience: ExperienceItem[] = [
   {
     company: 'Apoema Desenvolvimento e Tecnologia',
     role: {
-      pt: 'Desenvolvedor Front-end',
+      pt: 'Desenvolvedor de front-end',
       en: 'Front-end Developer',
     },
-    period: { pt: 'jun. 2023 – fev. 2024', en: 'Jun 2023 – Feb 2024' },
-    location: 'Paraná, Brasil (remoto)',
+    period: {
+      pt: 'jun. de 2023 – fev. de 2024 · 9 meses',
+      en: 'Jun 2023 – Feb 2024 · 9 mo',
+    },
+    location: 'Paraná, Brasil · Tempo integral · Remota',
     highlights: [
       {
         pt: 'Sistema de gestão de propriedades rurais com dados geoespaciais.',
@@ -113,8 +125,11 @@ export const experience: ExperienceItem[] = [
   {
     company: 'Like Sistemas',
     role: { pt: 'Desenvolvedor Full Stack', en: 'Full Stack Developer' },
-    period: { pt: 'dez. 2021 – mai. 2023', en: 'Dec 2021 – May 2023' },
-    location: 'Campo Mourão, PR, Brasil',
+    period: {
+      pt: 'dez. de 2021 – mai. de 2023 · 1 ano 6 meses',
+      en: 'Dec 2021 – May 2023 · 1 yr 6 mo',
+    },
+    location: 'Campo Mourão, Paraná, Brasil · Tempo integral · Híbrida',
     highlights: [
       {
         pt: 'PHP, Java, React e Angular; APIs e automação de processos.',
@@ -127,10 +142,13 @@ export const experience: ExperienceItem[] = [
     ],
   },
   {
-    company: 'Haken — Empresa Júnior (UTFPR)',
+    company: 'Haken — Empresa Júnior de Ciência da Computação',
     role: { pt: 'Desenvolvedor Full Stack', en: 'Full Stack Developer' },
-    period: { pt: 'ago. 2019 – ago. 2022', en: 'Aug 2019 – Aug 2022' },
-    location: 'Campo Mourão, PR, Brasil',
+    period: {
+      pt: 'ago. de 2019 – ago. de 2022 · 3 anos 1 mês',
+      en: 'Aug 2019 – Aug 2022 · 3 yrs 1 mo',
+    },
+    location: 'Campo Mourão, PR, Brasil · UTFPR · Meio período',
     highlights: [
       {
         pt: 'Sites e apps para construtoras, rádios, prefeituras e eventos.',
