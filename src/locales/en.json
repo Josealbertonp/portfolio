@@ -31,8 +31,7 @@
     "title": "Resume",
     "intro": "Download the PDF in Portuguese or English.",
     "downloadPt": "Download in Portuguese (PDF)",
-    "downloadEn": "Download in English (PDF)",
-    "fileHint": "PDF files. Replace the files in public/ when you update your resume."
+    "downloadEn": "Download in English (PDF)"
   },
   "contact": {
     "title": "Contact",

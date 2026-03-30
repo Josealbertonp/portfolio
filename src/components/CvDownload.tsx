@@ -43,9 +43,6 @@ export function CvDownload() {
             </a>
           </li>
         </ul>
-        <p className="mt-4 text-xs text-zinc-500 dark:text-zinc-500">
-          {t('cv.fileHint')}
-        </p>
       </div>
     </section>
   )

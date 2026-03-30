@@ -31,8 +31,7 @@
     "title": "Currículo",
     "intro": "Baixe o PDF em português ou em inglês.",
     "downloadPt": "Baixar em português (PDF)",
-    "downloadEn": "Baixar em inglês (PDF)",
-    "fileHint": "Arquivos em PDF. Substitua os arquivos em public/ ao atualizar o currículo."
+    "downloadEn": "Baixar em inglês (PDF)"
   },
   "contact": {
     "title": "Contato",
