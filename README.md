@@ -15,7 +15,7 @@ npm install
 npm run dev
 ```
 
-Abra **http://localhost:5173/portfolio/** (o `base` do Vite está configurado para deploy em GitHub Pages em `/portfolio/`).
+Abra **http://localhost:5173/Portfolio/** (o `base` do Vite segue o nome do repositório no GitHub Pages, ex.: `/Portfolio/`).
 
 ## Scripts
 
@@ -30,7 +30,7 @@ Abra **http://localhost:5173/portfolio/** (o `base` do Vite está configurado pa
 
 O repositório inclui [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). No GitHub: **Settings → Pages → Source: GitHub Actions**.
 
-O arquivo [`vite.config.ts`](vite.config.ts) define `base: '/portfolio/'`. Se o nome do repositório for outro, ajuste `base` para `'/nome-do-repo/'`.
+O arquivo [`vite.config.ts`](vite.config.ts) define `base: '/Portfolio/'` (mesmo nome do repo `Josealbertonp/Portfolio`). Se criar o repo com outro nome, ajuste `base` para `'/nome-exato-do-repo/'`.
 
 ## Onde editar conteúdo
 

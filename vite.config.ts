@@ -2,8 +2,8 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-// Repo name on GitHub Pages → https://<user>.github.io/portfolio/
+// Deve ser igual ao nome do repositório: https://<user>.github.io/Portfolio/
 export default defineConfig({
-  base: '/portfolio/',
+  base: '/Portfolio/',
   plugins: [react(), tailwindcss()],
 })
