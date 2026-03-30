@@ -1,8 +1,10 @@
 /**
  * Projetos do portfolio. Campos opcionais: demoUrl, tags, imageUrl, imageAlt.
- * Capas: URLs do Unsplash (uso permitido pela licença Unsplash).
+ * Capas: Unsplash, URLs públicas ou arquivos em public/ (use import.meta.env.BASE_URL).
  */
 import type { Localized } from '../content/profile'
+
+const asset = (file: string) => `${import.meta.env.BASE_URL}${file}`
 
 export type Project = {
   title: string
@@ -56,11 +58,12 @@ export const projects: Project[] = [
     },
     repoUrl: 'https://github.com/Josealbertonp/PokedexTS',
     tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    // Arte oficial do repositório de sprites do PokeAPI (mesma fonte da API do app)
     imageUrl:
-      'https://images.unsplash.com/photo-1612287230202-1ff1e85c2edb?w=900&auto=format&fit=crop&q=80',
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png',
     imageAlt: {
-      pt: 'Cena colorida estilo jogos — sugere tema de entretenimento digital',
-      en: 'Colorful gaming-style scene — suggests digital entertainment',
+      pt: 'Pikachu — ilustração oficial usada pelo ecossistema PokeAPI',
+      en: 'Pikachu — official-style artwork from the PokeAPI sprites repository',
     },
   },
   {
@@ -71,11 +74,10 @@ export const projects: Project[] = [
     },
     repoUrl: 'https://github.com/Josealbertonp/planeta',
     tags: ['Three.js', 'JavaScript', 'WebGL'],
-    imageUrl:
-      'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=900&auto=format&fit=crop&q=80',
+    imageUrl: asset('planeta-cover.png'),
     imageAlt: {
-      pt: 'Vista noturna do céu com estrelas — sugere ambiente espacial 3D',
-      en: 'Night sky with stars — suggests a 3D space environment',
+      pt: 'Render 3D do projeto: planeta com anéis e nebulosa no espaço',
+      en: '3D render from the project: ringed planet and nebula in space',
     },
   },
 ]
