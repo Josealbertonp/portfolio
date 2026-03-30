@@ -220,7 +220,7 @@ export const education: { school: string; detail: Localized }[] = [
 ]
 
 export const contact = {
-  email: 'albertoj0988@gmail.com',
+  email: 'albertoj098@gmail.com',
   phoneDisplay: '+55 (44) 9 9724-1687',
   /** Dígitos para wa.me (55 + DDD + número) */
   phoneTel: '5544997241687',
