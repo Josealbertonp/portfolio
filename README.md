@@ -37,7 +37,7 @@ O arquivo [`vite.config.ts`](vite.config.ts) define `base: '/portfolio/'`. Se o 
 - Dados pessoais e experiências: [`src/content/profile.ts`](src/content/profile.ts)
 - Projetos (links, textos, capas): [`src/data/projects.ts`](src/data/projects.ts)
 - Rótulos da interface (PT/EN): [`src/locales/pt.json`](src/locales/pt.json) e [`src/locales/en.json`](src/locales/en.json)
-- Foto do hero e assets estáticos: pasta [`public/`](public/)
+- Foto do hero, currículos (PDF) e outros assets estáticos: pasta [`public/`](public/) (`cv-jose-alberto-pt.pdf`, `cv-jose-alberto-en.pdf`)
 
 ## Licença
 

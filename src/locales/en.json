@@ -4,6 +4,7 @@
     "experience": "Experience",
     "skills": "Skills",
     "projects": "Projects",
+    "cv": "Resume",
     "contact": "Contact"
   },
   "hero": {
@@ -25,6 +26,13 @@
     "intro": "A selection of personal, academic, and experimental work. Add more entries in src/data/projects.ts.",
     "viewRepo": "View repository",
     "viewDemo": "View demo"
+  },
+  "cv": {
+    "title": "Resume",
+    "intro": "Download the PDF in Portuguese or English.",
+    "downloadPt": "Download in Portuguese (PDF)",
+    "downloadEn": "Download in English (PDF)",
+    "fileHint": "PDF files. Replace the files in public/ when you update your resume."
   },
   "contact": {
     "title": "Contact",

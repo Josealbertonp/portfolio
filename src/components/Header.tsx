@@ -6,6 +6,7 @@ const navKeys = [
   { href: '#experience', key: 'nav.experience' },
   { href: '#skills', key: 'nav.skills' },
   { href: '#projects', key: 'nav.projects' },
+  { href: '#cv', key: 'nav.cv' },
   { href: '#contact', key: 'nav.contact' },
 ] as const
 
